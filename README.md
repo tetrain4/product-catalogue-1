@@ -1,12 +1,12 @@
-Product Catalog
+Product Catalog:
 A simple React app that displays a product catalog from a JSON file with search, sortable columns, and pagination.
 
-Features
+Features:
 Clickable column headers to sort ascending/descending
 Pagination with next/previous buttons and page indicator
 JSONL → JSON conversion script included
 
-Project Structure
+Project Structure:
 src/
   App.jsx          # Main logic
   App.css          # Styles
@@ -17,7 +17,7 @@ public/
   output.json      # Data loaded by the app
 convert-jsonl.js   # JSONL → JSON converter
 
-Setup & Run
+Setup & Run:
 npm install
 node convert-jsonl.js   # convert data if needed
 npm run dev             # start development server
