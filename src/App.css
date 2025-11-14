@@ -1,0 +1,88 @@
+/* General page layout */
+#root {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: indianred;
+}
+
+/* Search Box */
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+th {
+    background-color: indianred;
+    font-weight: bold;
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+    cursor: pointer;
+    text-align: left;
+    color: white;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Alternating stripes */
+tbody tr:nth-child(even) {
+    background-color: rgba(170, 165, 165, 0.21);
+}
+
+/* Hover effect */
+tbody tr:hover {
+    background-color: rgba(170, 165, 165, 0.44);
+}
+
+/* Pagination container */
+.pagination-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Pagination buttons */
+button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: none;
+    background-color: #4c8bf5;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+    background-color: #3575d1;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
