@@ -1,7 +1,7 @@
-- Product Catalog
+Product Catalog
 A simple React app that displays a product catalog from a JSON file with search, sortable columns, and pagination.
 
-- Features
+Features
 Deep search across all product fields, including nested fields
 Clickable column headers to sort ascending/descending
 Pagination with next/previous buttons and page indicator
